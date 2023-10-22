@@ -1,5 +1,4 @@
-﻿@model List<SliderViewModel>
-
+﻿@model List<ServiceViewModel>
 @{
     ViewData["Title"] = "Index";
 }
@@ -20,18 +19,18 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var slider in Model)
+                    @foreach (var service in Model)
                     {
                         <tr>
-                            <td>@slider.Title</td>
-                            <td>@slider.CreatedBy</td>
-                            <td>@slider.ModifiedBy</td>
+                            <td>@service.Title</td>
+                            <td>@service.CreatedBy</td>
+                            <td>@service.ModifiedBy</td>
                             <td>
-                                <a class="btn btn-success" asp-action="Detail" asp-route-id="@slider.Id">Detail</a>
-                                <a class="btn btn-warning" asp-action="Update" asp-route-id="@slider.Id">Update</a>
+                                <a class="btn btn-success" asp-action="Detail" asp-route-id="@service.Id">Detail</a>
+                                <a class="btn btn-warning" asp-action="Update" asp-route-id="@service.Id">Update</a>
                                 @if (ViewBag.SlidersCount != 1)
                                 {
-                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@slider.Id">Delete</a>
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@service.Id">Delete</a>
                                 }
                             </td>
                         </tr>
@@ -42,3 +41,4 @@
         </div>
     </div>
 </div>
+

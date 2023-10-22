@@ -1,13 +1,14 @@
-﻿@model SliderViewModel
+﻿@model ServiceViewModel
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Update";
 }
 
 
 <div class="col-md-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Create slider</h4>
+            <h4 class="card-title">Update slider</h4>
+
             <form class="forms-sample" method="post" enctype="multipart/form-data">
                 <div class="form-group" style="margin: 20px 0;">
                     <label for="exampleInputUsername1">Image</label>
@@ -25,12 +26,11 @@
                     <span asp-validation-for="Description" class="text-danger"></span>
                 </div>
                 <div style="margin: 20px 0;">
-                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <button type="submit" class="btn btn-warning mr-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </div>
-                
+
             </form>
         </div>
     </div>
 </div>
-

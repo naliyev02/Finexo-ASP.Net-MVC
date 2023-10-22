@@ -1,6 +1,7 @@
 ﻿using Finexo.Areas.Admin.ViewModels;
 using Finexo.Contexts;
 using Finexo.Models;
+using Finexo.Utils;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,18 +14,20 @@ namespace Finexo.Areas.Admin.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private int _count = 0;
 
         public SliderController(AppDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
             _webHostEnvironment = webHostEnvironment;
+            var sliders = _context.Sliders.AsEnumerable();
+            _count = sliders.Count();
         }
 
         public async Task<IActionResult> Index()
         {
-            var sliders = await _context.Sliders.ToListAsync();
-            int slidersCount = sliders.Count;
-            ViewBag.SlidersCount = slidersCount;
+            var sliders = await _context.Sliders.OrderByDescending(s => s.ModifiedAt).ToListAsync();
+            ViewBag.SlidersCount = _count;
 
             List<SliderViewModel> slidersViewModels = new List<SliderViewModel>();
 
@@ -34,8 +37,8 @@ namespace Finexo.Areas.Admin.Controllers
                 {
                     Id = slider.Id,
                     Title = slider.Title,
-                    CreatedBy = "Nicat",
-                    ModifiedBy = "Nicat"
+                    CreatedBy = slider.CreatedBy,
+                    ModifiedBy = slider.ModifiedBy
                 });
             }
             return View(slidersViewModels);
@@ -142,12 +145,7 @@ namespace Finexo.Areas.Admin.Controllers
                     return View();
                 }
 
-
-                string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
-                if (System.IO.File.Exists(path))
-                {
-                    System.IO.File.Delete(path);
-                }
+                FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
 
                 string fileName = $"{Guid.NewGuid()}-{sliderViewModel.Image.FileName}";
                 var newPath = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", fileName);
@@ -169,6 +167,9 @@ namespace Finexo.Areas.Admin.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
+            if (_count == 1)
+                return BadRequest();
+
             var slider = _context.Sliders.FirstOrDefault(s => s.Id == id);
             if (slider == null)
                 return NotFound();
@@ -189,11 +190,14 @@ namespace Finexo.Areas.Admin.Controllers
         [ActionName(nameof(Delete))]
         public async Task<IActionResult> DeleteSlider(int id)
         {
+            if (_count == 1)
+                return BadRequest();
+
             var slider = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);
             if (slider == null)
                 return NotFound();
 
-            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
+            FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
 
             _context.Sliders.Remove(slider);
             await _context.SaveChangesAsync();

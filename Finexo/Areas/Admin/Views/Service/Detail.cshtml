@@ -1,8 +1,8 @@
-﻿@model SliderViewModel
-@{
-    ViewData["Title"] = "Delete";
-}
+﻿@model ServiceViewModel
 
+@{
+    ViewData["Title"] = "Detail";
+}
 
 <div class="content-wrapper">
     <div class="row">
@@ -14,15 +14,9 @@
             <h4>Title: @Model.Title</h4>
             <h4>Description: @Model.Description</h4>
 
-            <div style="display: flex; gap: 15px">
-                <a class="btn btn-info" asp-action="Index" asp-controller="Slider">Go back</a>
-
-                <form method="post">
-                    <button type="submit" class="btn btn-danger">Delete</button>
-                </form>
-            </div>
-
+            <a class="btn btn-info" asp-action="Index" asp-controller="Service">Go back</a>
         </div>
     </div>
 </div>
+
 

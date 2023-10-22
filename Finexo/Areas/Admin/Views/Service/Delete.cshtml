@@ -1,4 +1,4 @@
-﻿@model SliderViewModel
+﻿@model ServiceViewModel
 @{
     ViewData["Title"] = "Delete";
 }
@@ -15,7 +15,7 @@
             <h4>Description: @Model.Description</h4>
 
             <div style="display: flex; gap: 15px">
-                <a class="btn btn-info" asp-action="Index" asp-controller="Slider">Go back</a>
+                <a class="btn btn-info" asp-action="Index" asp-controller="Service">Go back</a>
 
                 <form method="post">
                     <button type="submit" class="btn btn-danger">Delete</button>
@@ -25,4 +25,6 @@
         </div>
     </div>
 </div>
+
+
 

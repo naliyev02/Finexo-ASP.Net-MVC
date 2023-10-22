@@ -69,66 +69,28 @@
                 </p>
             </div>
             <div class="row">
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="~/assets/images/s1.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Currency Wallet
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="~/assets/images/s2.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Security Storage
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="~/assets/images/website-images/@service.Image" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    @service.Title
+                                </h5>
+                                <p>
+                                    @service.Description
+                                </p>
+                                <a href="">
+                                    Read More
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="~/assets/images/s3.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Expert Support
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                }
+
             </div>
             <div class="btn-box">
                 <a href="">

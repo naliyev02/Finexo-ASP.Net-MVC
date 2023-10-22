@@ -17,10 +17,12 @@ namespace Finexo.Controllers
         public async Task<IActionResult> Index()
         {
             var sliders = await _context.Sliders.ToListAsync();
+            var services = await _context.Services.ToListAsync();
 
             HomeViewModel homeViewModel = new()
             {
                 Sliders = sliders,
+                Services = services
             };
 
             return View(homeViewModel);
