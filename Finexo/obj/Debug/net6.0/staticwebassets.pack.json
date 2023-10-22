@@ -113,334 +113,6 @@
       "PackagePath": "staticwebassets\\assets\\admin\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_accordion.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_accordion.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_alert.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_badge.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_badge.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_button-group.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_button-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_buttons.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_card.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_card.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_carousel.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_carousel.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_close.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_close.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_containers.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_containers.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_dropdown.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_dropdown.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_forms.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_functions.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_functions.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_grid.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_helpers.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_helpers.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_images.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_images.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_list-group.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_mixins.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_mixins.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_modal.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_modal.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_nav.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_nav.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_navbar.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_navbar.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_pagination.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_popover.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_popover.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_progress.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_progress.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_reboot.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_reboot.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_root.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_root.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_spinners.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_spinners.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_tables.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_tables.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_toasts.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_toasts.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_tooltip.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_tooltip.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_transitions.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_transitions.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_type.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_type.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_utilities.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_utilities.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\_variables.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\_variables.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\bootstrap.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
-    },
-    {
-      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
-      "PackagePath": "staticwebassets\\assets\\admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
-    },
-    {
       "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
     },
@@ -565,12 +237,44 @@
       "PackagePath": "staticwebassets\\assets\\images\\w4.png"
     },
     {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\1659d21c-a0c7-4461-a782-4a1629f40c0a-slider-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1659d21c-a0c7-4461-a782-4a1629f40c0a-slider-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\39b47f6d-bb8d-456d-91cc-0863e00d66ad-about-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\39b47f6d-bb8d-456d-91cc-0863e00d66ad-about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\49f4762c-fb63-44b0-a964-a1752e74ea3b-StarWarsWallpaper.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\49f4762c-fb63-44b0-a964-a1752e74ea3b-StarWarsWallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\5fc37798-6a5d-46a2-bceb-1119128ff821-slider-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5fc37798-6a5d-46a2-bceb-1119128ff821-slider-img.png"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\60776044-ac35-49a0-9602-3772f0b97eae-StarWarsWallpaper.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\60776044-ac35-49a0-9602-3772f0b97eae-StarWarsWallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\8559e9b8-c2de-4671-8002-4a80a5538fe0-StarWarsWallpaper.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8559e9b8-c2de-4671-8002-4a80a5538fe0-StarWarsWallpaper.jpg"
+    },
+    {
       "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\be4a74eb-b3b6-4284-9999-dded8a297629-StarWarsWallpaper.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\be4a74eb-b3b6-4284-9999-dded8a297629-StarWarsWallpaper.jpg"
     },
     {
       "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\d93cb1e0-83f7-42ee-976e-b19f47ce9b29-Untitled.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\d93cb1e0-83f7-42ee-976e-b19f47ce9b29-Untitled.png"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\dc443542-ad9c-48c2-b929-359b73b29cba-StarWarsWallpaper.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\dc443542-ad9c-48c2-b929-359b73b29cba-StarWarsWallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\eaf5ecc2-d901-41b8-830f-664b88b91bfa-slider-img.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\eaf5ecc2-d901-41b8-830f-664b88b91bfa-slider-img.png"
     },
     {
       "Id": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\js\\bootstrap.js",

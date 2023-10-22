@@ -41,10 +41,10 @@
 
         </div>
         <ol class="carousel-indicators">
-            <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-            @for (int i = 1; i < Model.Sliders.Count; i++)
+            @foreach (var slider in Model.Sliders)
             {
-                <li data-target="#customCarousel1" data-slide-to="@i"></li>
+                <li data-target="#customCarousel1" data-slide-to="@(Model.Sliders.FindIndex(s => s == slider))" 
+                    class="@((slider == Model.Sliders.First())? "active":"")"></li>
             }
 
         </ol>

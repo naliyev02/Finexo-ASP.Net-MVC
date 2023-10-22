@@ -26,10 +26,14 @@
                             <td>@slider.Title</td>
                             <td>@slider.CreatedBy</td>
                             <td>@slider.ModifiedBy</td>
+                            @* @(ViewBag.SlidersCount == 1 ? "Disabled" : "") *@
                             <td>
                                 <a class="btn btn-success" asp-action="Detail" asp-route-id="@slider.Id">Detail</a>
                                 <a class="btn btn-warning" asp-action="Update" asp-route-id="@slider.Id">Update</a>
-                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@slider.Id">Delete</a>
+                                @if (ViewBag.SlidersCount != 1)
+                                {
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@slider.Id">Delete</a>
+                                }
                             </td>
                         </tr>
                     }
