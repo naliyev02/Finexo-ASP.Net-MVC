@@ -944,12 +944,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\w4.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\925b477d-b297-48ea-9499-56aca147e411-s1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\service-images\520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png))">
       <SourceType>Package</SourceType>
       <SourceId>Finexo</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Finexo</BasePath>
-      <RelativePath>assets/images/website-images/925b477d-b297-48ea-9499-56aca147e411-s1.png</RelativePath>
+      <RelativePath>assets/images/website-images/service-images/520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -958,14 +958,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\925b477d-b297-48ea-9499-56aca147e411-s1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\service-images\520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\service-images\ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png))">
       <SourceType>Package</SourceType>
       <SourceId>Finexo</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Finexo</BasePath>
-      <RelativePath>assets/images/website-images/a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png</RelativePath>
+      <RelativePath>assets/images/website-images/service-images/ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -974,14 +974,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\service-images\ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\slider-images\8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png))">
       <SourceType>Package</SourceType>
       <SourceId>Finexo</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Finexo</BasePath>
-      <RelativePath>assets/images/website-images/df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png</RelativePath>
+      <RelativePath>assets/images/website-images/slider-images/8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -990,7 +990,23 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\slider-images\8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\whyus-images\6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Finexo</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Finexo</BasePath>
+      <RelativePath>assets/images/website-images/whyus-images/6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\website-images\whyus-images\6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\js\bootstrap.js))">
       <SourceType>Package</SourceType>

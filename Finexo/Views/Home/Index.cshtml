@@ -31,7 +31,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="img-box">
-                                    <img src="~/assets/images/website-images/@slider.Image" alt="">
+                                    <img src="~/assets/images/website-images/slider-images/@slider.Image" alt="">
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@
                     <div class="col-md-4 ">
                         <div class="box ">
                             <div class="img-box">
-                                <img src="~/assets/images/website-images/@service.Image" alt="">
+                                <img src="~/assets/images/website-images/service-images/@service.Image" alt="">
                             </div>
                             <div class="detail-box">
                                 <h5>
@@ -154,21 +154,27 @@
             </h2>
         </div>
         <div class="why_container">
-            <div class="box">
-                <div class="img-box">
-                    <img src="~/assets/images/w1.png" alt="">
+
+            @foreach (var item in Model.WhyUsItems)
+            {
+                <div class="box">
+                    <div class="img-box">
+                        <img src="~/assets/images/website-images/whyus-images/@item.Image" alt="">
+                    </div>
+                    <div class="detail-box">
+                        <h5>
+                            @item.Title
+                        </h5>
+                        <p>
+                            @item.Description
+                        </p>
+                    </div>
                 </div>
-                <div class="detail-box">
-                    <h5>
-                        Expert Management
-                    </h5>
-                    <p>
-                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil.
-                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
-                    </p>
-                </div>
-            </div>
-            <div class="box">
+            }
+
+            
+
+            @* <div class="box">
                 <div class="img-box">
                     <img src="~/assets/images/w2.png" alt="">
                 </div>
@@ -209,7 +215,7 @@
                         Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus
                     </p>
                 </div>
-            </div>
+            </div> *@
         </div>
         <div class="btn-box">
             <a href="">

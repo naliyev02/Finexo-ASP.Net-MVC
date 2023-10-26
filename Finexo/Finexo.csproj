@@ -17,7 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\assets\images\website-images\" />
+    <Folder Include="wwwroot\assets\images\website-images\customer-images\" />
+    <Folder Include="wwwroot\assets\images\website-images\team-images\" />
+    <Folder Include="wwwroot\assets\images\website-images\whyus-images\" />
+    <Folder Include="wwwroot\assets\images\website-images\service-images\" />
+    <Folder Include="wwwroot\assets\images\website-images\slider-images\" />
   </ItemGroup>
 
 </Project>

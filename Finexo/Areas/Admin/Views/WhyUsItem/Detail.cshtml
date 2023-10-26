@@ -1,22 +1,21 @@
-﻿@model ServiceViewModel
-
+﻿@model WhyUsItemViewModel
 @{
     ViewData["Title"] = "Detail";
 }
+
 
 <div class="content-wrapper">
     <div class="row">
         <div class="col-lg-6">
             <div style="width: 200px; height: auto">
-                <img src="~/assets/images/website-images/service-images/@ViewBag.Image" style="max-width:100%; max-height:auto" />
+                <img src="~/assets/images/website-images/whyus-images/@ViewBag.Image" style="max-width:100%; max-height:auto" />
 
             </div>
             <h4>Title: @Model.Title</h4>
             <h4>Description: @Model.Description</h4>
 
-            <a class="btn btn-info" asp-action="Index" asp-controller="Service">Go back</a>
+            <a class="btn btn-info" asp-action="Index" asp-controller="WhyUsItem">Go back</a>
         </div>
     </div>
 </div>
-
 

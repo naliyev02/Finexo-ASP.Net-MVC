@@ -1,0 +1,45 @@
+﻿@model List<WhyUsItemViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="col-12">
+    <div class="bg-light rounded h-100 p-4">
+        <h6 class="mb-4">Responsive Table</h6>
+        <div class="table-responsive">
+            <a class="btn btn-primary" asp-action="Create">Create</a>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col">CreatedBy</th>
+                        <th scope="col">ModifiedBy</th>
+                        <th scope="col">Actions</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Title</td>
+                            <td>@item.CreatedBy</td>
+                            <td>@item.ModifiedBy</td>
+                            <td>
+                                <a class="btn btn-success" asp-action="Detail" asp-route-id="@item.Id">Detail</a>
+                                <a class="btn btn-warning" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                                @if (ViewBag.ItemsCount != 1)
+                                {
+                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                }
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

@@ -69,7 +69,7 @@ namespace Finexo.Areas.Admin.Controllers
             }
 
             string fileName = $"{Guid.NewGuid()}-{serviceViewModel.Image.FileName}";
-            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", fileName);
+            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "service-images", fileName);
 
             using (FileStream stream = new FileStream(path, FileMode.Create))
             {
@@ -135,11 +135,11 @@ namespace Finexo.Areas.Admin.Controllers
 
             if (serviceViewModel.Image != null)
             {
-                if (serviceViewModel.Image == null)
-                {
-                    ModelState.AddModelError("Image", "Image cannot be empty");
-                    return View();
-                }
+                //if (serviceViewModel.Image == null)
+                //{
+                //    ModelState.AddModelError("Image", "Image cannot be empty");
+                //    return View();
+                //}
 
                 if (!serviceViewModel.Image.ContentType.Contains("image/"))
                 {
@@ -147,10 +147,10 @@ namespace Finexo.Areas.Admin.Controllers
                     return View();
                 }
 
-                FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", service.Image);
+                FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "service-images", service.Image);
 
                 string fileName = $"{Guid.NewGuid()}-{serviceViewModel.Image.FileName}";
-                var newPath = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", fileName);
+                var newPath = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "service-images", fileName);
                 using (FileStream stream = new FileStream(newPath, FileMode.Create))
                 {
                     await serviceViewModel.Image.CopyToAsync(stream);
@@ -197,7 +197,7 @@ namespace Finexo.Areas.Admin.Controllers
             if (service == null)
                 return NotFound();
 
-            FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", service.Image);
+            FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "service-images", service.Image);
 
             _context.Services.Remove(service);
             await _context.SaveChangesAsync();

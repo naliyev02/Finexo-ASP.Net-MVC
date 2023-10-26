@@ -12,6 +12,7 @@ namespace Finexo.Contexts
 
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<WhyUsItem> WhyUsItems { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

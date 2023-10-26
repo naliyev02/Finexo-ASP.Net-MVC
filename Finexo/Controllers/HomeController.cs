@@ -18,11 +18,14 @@ namespace Finexo.Controllers
         {
             var sliders = await _context.Sliders.ToListAsync();
             var services = await _context.Services.ToListAsync();
+            var whyUsItems = await _context.WhyUsItems.ToListAsync();
 
             HomeViewModel homeViewModel = new()
             {
                 Sliders = sliders,
-                Services = services
+                Services = services,
+                WhyUsItems = whyUsItems
+                
             };
 
             return View(homeViewModel);

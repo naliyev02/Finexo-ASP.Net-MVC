@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cxAkdTXOiUSWZyp23C/IHvWBDVh5cqwxA2ukKRcf5yA=",
+  "Hash": "yJdL/1t5enuJX7H5+6ZU/19VCJ72KrEEtEVhfxtXijc=",
   "Source": "Finexo",
   "BasePath": "_content/Finexo",
   "Mode": "Default",
@@ -1020,12 +1020,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\w4.png"
     },
     {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\925b477d-b297-48ea-9499-56aca147e411-s1.png",
+      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\service-images\\520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png",
       "SourceId": "Finexo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\",
       "BasePath": "_content/Finexo",
-      "RelativePath": "assets/images/website-images/925b477d-b297-48ea-9499-56aca147e411-s1.png",
+      "RelativePath": "assets/images/website-images/service-images/520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\925b477d-b297-48ea-9499-56aca147e411-s1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\service-images\\520d1568-6c9a-4b58-bb4f-81d29637d3bf-w1.png"
     },
     {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png",
+      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\service-images\\ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png",
       "SourceId": "Finexo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\",
       "BasePath": "_content/Finexo",
-      "RelativePath": "assets/images/website-images/a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png",
+      "RelativePath": "assets/images/website-images/service-images/ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1051,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\a230ca62-f8ef-4fe5-8a84-f781623b23af-about-img.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\service-images\\ed0c1405-87ac-45e4-898e-ff59b9184ae6-s2.png"
     },
     {
-      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png",
+      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\slider-images\\8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png",
       "SourceId": "Finexo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\",
       "BasePath": "_content/Finexo",
-      "RelativePath": "assets/images/website-images/df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png",
+      "RelativePath": "assets/images/website-images/slider-images/8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,7 +1068,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\df4962e5-a5bb-4029-bdb7-bef9939d7d90-w1.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\slider-images\\8979cae4-ad81-478a-9654-f598179d1c3f-slider-img.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\images\\website-images\\whyus-images\\6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg",
+      "SourceId": "Finexo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\",
+      "BasePath": "_content/Finexo",
+      "RelativePath": "assets/images/website-images/whyus-images/6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\whyus-images\\6ec585f9-bfc3-424b-aa30-aa1b4e61f54d-team-4.jpg"
     },
     {
       "Identity": "C:\\Users\\Nicat\\Desktop\\BackEnd Learning\\Finexo\\Finexo\\wwwroot\\assets\\js\\bootstrap.js",

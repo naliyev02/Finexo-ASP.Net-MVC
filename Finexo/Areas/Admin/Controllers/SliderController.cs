@@ -70,7 +70,7 @@ namespace Finexo.Areas.Admin.Controllers
             }
 
             string fileName = $"{Guid.NewGuid()}-{sliderViewModel.Image.FileName}";
-            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", fileName);
+            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images","slider-images", fileName);
 
             using (FileStream stream = new FileStream(path, FileMode.Create))
             {
@@ -145,10 +145,10 @@ namespace Finexo.Areas.Admin.Controllers
                     return View();
                 }
 
-                FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
+                FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "slider-images", slider.Image);
 
                 string fileName = $"{Guid.NewGuid()}-{sliderViewModel.Image.FileName}";
-                var newPath = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", fileName);
+                var newPath = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "slider-images", fileName);
                 using (FileStream stream = new FileStream(newPath, FileMode.Create))
                 {
                     await sliderViewModel.Image.CopyToAsync(stream);
@@ -197,7 +197,7 @@ namespace Finexo.Areas.Admin.Controllers
             if (slider == null)
                 return NotFound();
 
-            FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", slider.Image);
+            FileService.DeleteFile(_webHostEnvironment.WebRootPath, "assets", "images", "website-images", "slider-images", slider.Image);
 
             _context.Sliders.Remove(slider);
             await _context.SaveChangesAsync();
